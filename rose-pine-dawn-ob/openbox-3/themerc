@@ -1,0 +1,152 @@
+# Jorge Cabrera (ju1464)  (https://github.com/ju1464)
+# Simply-Circles-Light Openbox Theme
+
+# Window geometry
+padding.width: 2
+window.border.width: 1
+window.client.padding.width: 2
+window.client.padding.height: 2
+window.handle.width: 4
+
+#Menu geometry
+menu.border.width: 2
+
+# Border colors
+window.active.border.color: @window.active.border.color@
+window.inactive.border.color: @window.inactive.border.color@
+menu.border.color: @border.color@
+window.active.client.color: @window.active.border.color@
+window.inactive.client.color: @window.inactive.border.color@
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# title justification
+window.label.text.justify: center
+menu.title.text.justify: center
+
+### Menu ###
+menu.title.bg: raised solid
+menu.title.bg.color: @menu.title.bg.color@
+menu.title.text.color: @menu.title.text.color@
+
+menu.items.bg: Solid Flat
+menu.items.bg.color: @menu.bg.color@
+menu.items.text.color: @menu.text.color@
+menu.items.disabled.text.color: @menu.text.color@
+
+menu.items.active.bg: Solid Flat
+menu.items.active.bg.color: @menu.title.bg.color@
+menu.items.active.text.color: @menu.title.text.color@
+
+menu.separator.color: @menu.bg.color@
+menu.separator.width: 1
+menu.separator.padding.width: 0
+menu.separator.padding.height: 10
+
+### Active window ###
+window.active.title.bg: Flat solid
+window.active.title.bg.color: @window.active.title.bg.color@
+window.active.title.bg.border.color: @theme_selection@   # Fallback: no separate border color in JSON
+window.active.label.bg: Parentrelative
+window.active.label.text.color: @window.active.title.text.color@
+
+window.active.handle.bg: Flat solid
+window.active.handle.bg.color: @window.active.title.bg.color@
+window.active.grip.bg: Flat solid
+window.active.grip.bg.color: @window.active.title.bg.color@
+
+window.active.button.unpressed.bg: Flat solid
+window.active.button.unpressed.bg.color: @theme_black@
+window.active.button.unpressed.bg.border.color: @theme_black@
+window.active.button.unpressed.image.color: @window.active.title.text.color@
+
+window.active.button.pressed.bg: Flat solid
+window.active.button.pressed.bg.color: @window.active.title.text.color@
+window.active.button.pressed.bg.border.color: @window.active.title.text.color@
+window.active.button.pressed.image.color: @theme_black@
+
+window.active.button.disabled.bg: Flat solid
+window.active.button.disabled.bg.color: @theme_light_gray@
+window.active.button.disabled.image.color: @menu.text.color@
+
+window.active.button.toggled.unpressed.bg: Flat solid
+window.active.button.toggled.unpressed.bg.color: @theme_light_gray@
+window.active.button.toggled.unpressed.bg.border.color: @theme_light_gray@
+window.active.button.toggled.unpressed.image.color: @theme_black@
+
+window.active.button.toggled.pressed.bg: Flat solid
+window.active.button.toggled.pressed.bg.color: @theme_selection@
+window.active.button.toggled.pressed.bg.border.color: @theme_black@
+window.active.button.toggled.pressed.image.color: @theme_black@
+
+window.active.button.toggled.hover.bg: Flat solid
+window.active.button.toggled.hover.bg.color: @theme_light_gray@
+window.active.button.toggled.hover.bg.border.color: @theme_light_gray@
+window.active.button.toggled.hover.image.color: @theme_selection@
+
+window.active.button.hover.bg: Flat solid
+window.active.button.hover.bg.color: @theme_selection@
+window.active.button.hover.bg.border.color: @theme_selection@
+window.active.button.hover.image.color: @theme_selection@
+
+### Inactive windows ###
+window.inactive.title.bg: Flat solid
+window.inactive.title.bg.color: @window.inactive.title.bg.color@
+window.inactive.title.bg.border.color: @window.inactive.title.bg.color@  # Fallback
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: @window.inactive.title.text.color@
+
+window.inactive.handle.bg: Flat solid
+window.inactive.handle.bg.color: @window.inactive.title.bg.color@
+window.inactive.grip.bg: Flat solid
+window.inactive.grip.bg.color: @window.inactive.title.bg.color@
+
+window.inactive.button.unpressed.bg: Flat solid
+window.inactive.button.unpressed.bg.color: @theme_black@
+window.inactive.button.unpressed.bg.border.color: @theme_black@
+window.inactive.button.unpressed.image.color: @window.inactive.title.text.color@
+
+window.inactive.button.pressed.bg: Flat solid
+window.inactive.button.pressed.bg.color: @window.inactive.title.text.color@
+window.inactive.button.pressed.bg.border.color: @window.inactive.title.text.color@
+window.inactive.button.pressed.image.color: @theme_black@
+
+window.inactive.button.disabled.bg: Flat solid
+window.inactive.button.disabled.bg.color: @theme_light_gray@
+window.inactive.button.disabled.image.color: @menu.text.color@
+
+window.inactive.button.toggled.unpressed.bg: Flat solid
+window.inactive.button.toggled.unpressed.bg.color: @theme_light_gray@
+window.inactive.button.toggled.unpressed.bg.border.color: @theme_light_gray@
+window.inactive.button.toggled.unpressed.image.color: @theme_black@
+
+window.inactive.button.toggled.pressed.bg: Flat solid
+window.inactive.button.toggled.pressed.bg.color: @theme_selection@
+window.inactive.button.toggled.pressed.bg.border.color: @theme_black@
+window.inactive.button.toggled.pressed.image.color: @theme_black@
+
+window.inactive.button.toggled.hover.bg: Flat solid
+window.inactive.button.toggled.hover.bg.color: @theme_light_gray@
+window.inactive.button.toggled.hover.bg.border.color: @theme_light_gray@
+window.inactive.button.toggled.hover.image.color: @theme_selection@
+
+window.inactive.button.hover.bg: Flat solid
+window.inactive.button.hover.bg.color: @theme_selection@
+window.inactive.button.hover.bg.border.color: @theme_selection@
+window.inactive.button.hover.image.color: @theme_selection@
+
+### On-Screen-Display ###
+osd.border.width: 0
+osd.border.color:  @border.color@
+osd.bg: flat border solid
+osd.bg.color: @window.active.title.bg.color@
+osd.bg.border.color: @border.color@
+osd.label.bg: parentrelative
+osd.label.text.color: @window.active.title.text.color@
+osd.hilight.bg: raised gradient vertical
+osd.hilight.bg.color: @menu.bg.color@
+osd.hilight.bg.border.color: @menu.bg.color@
